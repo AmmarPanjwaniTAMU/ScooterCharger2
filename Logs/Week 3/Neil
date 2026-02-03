@@ -1,0 +1,23 @@
+- Did further research into Power Management
+    - Conceptual, Theoretical, and Mathematical background 
+        - CC/CV Charging Algorithm for Lithium-Ion Batteries
+        - Impedance Matching
+        - Input Undervoltage Protection
+        - Digital-to-Analog Control Interface
+        - Inverse Control Logic for safety
+        - Pre-Charge / Trickle Charge
+        - High-Side Current Sensing
+- Reviewed the handoffs between my subsystem and other subsystems
+    - Software -> PM
+        - Enable/Disable signal
+        - Target voltage signal
+        - Current Limit
+    - PM -> Software
+        - Charging status flags
+        - Shutdown Request (if needed)
+    - PM -> Scooter
+        - Physical Connection
+        - Safely delivering power
+        - Handling when battery is full
+        - Protection fuses in case software fails
+- Analyzed potential designs and components needed
