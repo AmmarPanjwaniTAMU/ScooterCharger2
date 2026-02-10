@@ -1,0 +1,2 @@
+I selected the ESP32 as the main platform and finalized the communication architecture.
+I began implementing and testing code using the Arduino environment to confirm that the ESP32 could successfully run and support the required functionality.
