@@ -1,0 +1,20 @@
+- Researched Design & Potential Components
+    - Power Stage
+        - Buck Boost Converter: LTC3779
+        - N-Channel Power MOSFETs (x4): Infineon BSC070N10NS5
+        - Shielded Power Inductor: 10uH - 22uH
+    - Communication
+        - ESP32
+            - Buck Converter (to Power): LM2596
+    - Sensing & Feedback
+        - Current Sensor: INA240
+            - Shunt Resistor (that Current Sensor Reads): 5mΩ
+        - Precision Resistors (for Feedback Divider and DAC Injection)
+    - Protection & Safety
+        - Schottky Blocking Diode: MBR10100 (10A, 100V)
+        - Automotive Blade Fuses: 10A
+        - Transient Voltage Suppression Diodes
+    - Passive Components 
+        - Electrolytic Capacitors: 470uF, 100V (Input and Output bulk storage)
+        - Ceramic Capacitors: 0.1uF & 10nF (for Bootstrap circuit and noise filtering)
+- Began Simulating Design in Multisim
